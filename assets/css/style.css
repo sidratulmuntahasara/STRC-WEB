@@ -796,7 +796,12 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #3498db;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
+  
+   .testimonials{
+    display: none;
+  }
+  /*
   .testimonials .testimonial-wrap {
     padding-left: 0;
   }
@@ -812,7 +817,8 @@ section {
     left: auto;
   }
 }
-
+*/
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -824,7 +830,7 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
+  background: #252525;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 .team .member .member-img {
