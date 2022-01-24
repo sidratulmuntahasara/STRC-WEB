@@ -1,0 +1,283 @@
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+    background: #f3f9fd;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .clients .col-lg-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .clients img {
+    width: 50%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 10px 0;
+  }
+  .clients img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  @media (max-width: 768px) {
+    .clients img {
+      width: 40%;
+    }
+  }
+  @media (max-width: 575px) {
+    .clients img {
+      width: 30%;
+    }
+  }
+
+  /*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+    padding-top: 0;
+  }
+  .counts .content {
+    padding: 0;
+  }
+  .counts .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #222222;
+  }
+  .counts .content p {
+    margin-bottom: 0;
+  }
+  .counts .content .count-box {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .counts .content .count-box i {
+    display: block;
+    font-size: 36px;
+    color: #3498db;
+    float: left;
+    line-height: 0;
+  }
+  .counts .content .count-box span {
+    font-size: 36px;
+    line-height: 30px;
+    display: block;
+    font-weight: 700;
+    color: #222222;
+    margin-left: 50px;
+  }
+  .counts .content .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #484848;
+  }
+  .counts .content .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #484848;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: ease-in-out 0.3s;
+  }
+  .counts .content .count-box a:hover {
+    color: #6f6f6f;
+  }
+  @media (max-width: 1024px) {
+    .counts .image {
+      text-align: center;
+    }
+    .counts .image img {
+      max-width: 70%;
+    }
+  }
+  @media (max-width: 667px) {
+    .counts .image img {
+      max-width: 100%;
+    }
+  }
+
+
+
+  /*--------------------------------------------------------------
+# More Services
+--------------------------------------------------------------*/
+.more-services {
+    padding-top: 20px;
+  }
+  .more-services .card {
+    border: 0;
+    padding: 160px 20px 20px 20px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .more-services .card-body {
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    transition: ease-in-out 0.4s;
+    border-radius: 5px;
+  }
+  .more-services .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .more-services .card-title a {
+    color: #222222;
+  }
+  .more-services .card-text {
+    color: #5e5e5e;
+  }
+  .more-services .read-more a {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.4s;
+  }
+  .more-services .read-more a:hover {
+    text-decoration: underline;
+  }
+  .more-services .card:hover .card-body {
+    background: #3498db;
+  }
+  .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
+    color: #fff;
+  }
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #f6f6f6;
+    transition: ease-in-out 0.3s;
+  }
+  .features .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  .features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+  }
+  .features .icon-box h3 a {
+    color: #222222;
+    transition: ease-in-out 0.3s;
+  }
+  .features .icon-box h3 a:hover {
+    color: #3498db;
+  }
+  .features .icon-box:hover {
+    background: #eef7fc;
+  }
+  
+
+/*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing .box {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #f9f9f9;
+  }
+  .pricing .box h3 {
+    font-weight: 400;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+  }
+  .pricing .box h4 {
+    font-size: 42px;
+    color: #3498db;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+  }
+  .pricing .box h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  .pricing .box h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .pricing .box ul {
+    padding: 0;
+    list-style: none;
+    color: #222222;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .pricing .box ul li {
+    padding-bottom: 16px;
+  }
+  .pricing .box ul i {
+    color: #3498db;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  .pricing .box ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  .pricing .box .btn-wrap {
+    padding: 15px;
+    text-align: center;
+  }
+  .pricing .box .btn-buy {
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  .pricing .box .btn-buy:hover {
+    background: #3498db;
+    color: #fff;
+  }
+  .pricing .recommended {
+    border-color: #3498db;
+  }
+  .pricing .recommended .btn-buy {
+    background: #3498db;
+    color: #fff;
+  }
+  .pricing .recommended .btn-buy:hover {
+    background: #2383c4;
+    border-color: #2383c4;
+  }
+  
