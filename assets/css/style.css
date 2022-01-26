@@ -1,8 +1,4 @@
 /**
-* Template Name: Vesperr - v4.7.0
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
 */
 
 /*--------------------------------------------------------------
@@ -76,14 +72,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 22px 0;
   background: #252525;
 }
-/* #header:hover{
-  background: white;
-} */
+
+#header:hover {
+  background: #FFFFFF;
+}
+
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 12px 0;
 }
-/*
+
 #header .logo h1 {
   font-size: 30px;
   margin: 0;
@@ -96,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
-*/
+
 #header .logo img {
   padding: 0;
   margin: 0;
@@ -467,6 +465,10 @@ section {
   font-size: 20px;
   color: #3498db;
   line-height: 1;
+}
+.about .about-paragraph{
+  text-align: justify;
+  text-justify: inter-word;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -956,16 +958,19 @@ section {
   display: inline-block;
   left: -5px;
   position: relative;
+  color: black;
 }
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
+  color: black;
 }
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
+  color: black;
 }
 .testimonials .swiper-pagination {
   margin-top: 20px;
@@ -1006,7 +1011,7 @@ section {
 }
 /*--------------------------------------------------------------
 # Team
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .team{
   background-color: #252525;
 }
@@ -1077,7 +1082,7 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
-
+*/
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
@@ -1273,6 +1278,7 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 15px 0;
   background: #f8f8f8;
@@ -1322,7 +1328,6 @@ section {
     display: inline-block;
   }
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
