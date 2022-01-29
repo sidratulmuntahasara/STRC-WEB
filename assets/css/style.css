@@ -1198,6 +1198,12 @@ section {
 .contact .info .discord:hover {
   color: #5865F2;
 }
+.contact .info .linkdein {
+  color: #444444 ;
+}
+.contact .info .linkdein:hover {
+  color: #0E76A8;
+}
 .contact #php-email-form .error-message {
   display: none;
   color: #fff;
