@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 22px 0;
   background: #252525;
 }
-
 #header:hover {
   background: #FFFFFF;
 }
@@ -658,8 +657,6 @@ section {
 .services .icon-box:hover .icon i {
   color: #3498db;
 }
-
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1198,6 +1195,12 @@ section {
 }
 .contact .info .discord:hover {
   color: #5865F2;
+}
+.contact .info .linkdein {
+  color: #444444 ;
+}
+.contact .info .linkdein:hover {
+  color: #0E76A8;
 }
 .contact #php-email-form .error-message {
   display: none;
