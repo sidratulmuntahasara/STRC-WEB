@@ -1181,19 +1181,19 @@ section {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
-  color: #444444 ;
+  color: #888 ;
 }
 .contact .info a {
-  color: #444444 ;
+  color: #888 ;
 }
 .contact .info .email {
-  color: #444444 ;
+  color: #888 ;
 }
 .contact .info .email:hover {
   color: #00962d ;
 }
 .contact .info .discord {
-  color: #444444 ;
+  color: #888 ;
 }
 .contact .info .discord:hover {
   color: #5865F2;
