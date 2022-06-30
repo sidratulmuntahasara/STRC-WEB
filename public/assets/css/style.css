@@ -3,6 +3,7 @@ body bg: #252525
 body color: #fff
 font-family: "Open Sans", sans-serif;
 red #fd6262
+#0c0235
 */
 
 /*--------------------------------------------------------------
@@ -71,10 +72,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  background: #fff;
+  background: transparent;
 }
 
 #header.header-scrolled {
+  background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 12px 0;
 }
@@ -401,7 +403,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #222222;
 }
 
 .section-title {
