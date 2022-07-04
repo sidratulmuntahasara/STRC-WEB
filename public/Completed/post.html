@@ -3,95 +3,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsFlash | Post</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
-    <!-- Remix icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!-- Swiper.js styles -->
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
-    <!-- Custom styles -->
+    <title>STRC | Blogs</title>
+    <!-- Favicons -->
+    <link href="../assets/img/logo4.png" rel="icon">
+    <link href="../assets/img/logo4.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="./assets/css/swiper-bundle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar container" id="navbar">
-            <a href="./index.html">
-                <h2 class="logo">NewsFlash</h2>
-            </a>
-            <div class="menu" id="menu">
-                <ul class="list">
-                    <li class="list-item">
-                        <a href="#" class="list-link current">Home</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Categories</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Reviews</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">News</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Membership</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Contact</a>
-                    </li>
-                    <li class="list-item screen-lg-hidden">
-                        <a href="./signin.html" class="list-link">Sign in</a>
-                    </li>
-                    <li class="list-item screen-lg-hidden">
-                        <a href="./signup.html" class="list-link">Sign up</a>
-                    </li>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+          <!--   <h1><a href="index.html"><img class="logo" src="./assets/img/logo.png" alt=""></a></h1> -->
+             <!-- Uncomment below if you prefer to use an image logo-->
+            <a href="../index.html"><img src="../assets/img/logo4.png" alt="" class="img-fluid"></a>
+          </div>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About&nbsp;Us</a></li>
+              <li class="dropdown"><a href="#portfolio"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#" target="blank">Next GenX</a></li>
+                  <li><a href="#" target="blank">Explore AI</a></li>
+                  <li><a href="#" target="blank">Workiverse</a></li>
+                  <li><a href="#" target="blank">Mission Together 2021</a></li>
+                  <li><a href="#" target="blank">Space Opera</a></li>
+                  <li><a href="#" target="blank">Spark</a></li>
                 </ul>
-            </div>
-
-            <div class="list list-right">
-                <div class="icon-box place-items-center" id="theme-toggle-btn">
-                    <i class="ri-sun-line sun-icon"></i>
-                    <i class="ri-moon-line moon-icon"></i>
-                </div>
-
-                <div class="icon-box place-items-center" id="search-icon">
-                    <i class="ri-search-line"></i>
-                </div>
-
-                <div class="icon-box place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
-                    <i class="ri-menu-3-line open-menu-icon"></i>
-                    <i class="ri-close-line close-menu-icon"></i>
-                </div>
-
-                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
-                    <span>Sign up</span>
-                </a>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Search -->
-    <div class="search-form-container container" id="search-form-container">
-        <div class="form-container">
-            <form action="" class="form">
-                <input class="form-input" type="text" placeholder="What are you looking for?">
-                <button class="btn form-btn icon-box" type="submit">
-                    <i class="ri-search-line"></i>
-                </button>
-            </form>
-            <span class="form-note">Or press ESC to close.</span>
+              <li class="dropdown"><a href="./blog.html" class="nav-link scrollto active"><span>Blogs</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="./blog.html" target="blank" class="nav-link scrollto active">Blog Posts</a></li>
+                  <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="more.html">Research Papers</a></li>
+                      <li><a href="#">Free Resources</a></li>
+                      <!-- <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li> -->
+                    </ul>
+                  </li>
+                </ul>
+              <li class="dropdown"><a href="#"><span>Programs</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="https://66wc6ey07d2.typeform.com/to/z4b6Jrqi" target="blank">Partnership Programs</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#testimonials"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="more.html">Our Perspective</a></li>
+                  <li><a href="#">Our Stories</a></li>
+                  <li><a href="#">Our Goals</a></li>
+                  <!-- <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li> -->
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a class="getstarted scrollto" href="https://www.paypal.com/donate/?hosted_button_id=QDUFAUDV27V9E" target="_blank">Donate</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
         </div>
-        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
-            <i class="ri-close-line"></i>
-        </div>
-    </div>
+           </header><!-- End Header -->
 
     <section class="blog-post section-header-offset">
         <div class="blog-post-container container">
             <div class="blog-post-data">
-                <h3 class="title blog-post-title">Is VR the future?</h3>
+                <h3 class="title blog-post-title">PI - The Secrets of Wonder</h3>
                 <div class="article-data">
                     <span>Dec 6th 2021</span>
                     <span class="article-data-spacer"></span>
@@ -117,7 +109,7 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
                 </p>
 
-                <div class="author d-grid">
+                <!-- <div class="author d-grid">
                     <div class="author-image-box">
                         <img src="./assets/images/author.jpg" alt="" class="article-image">
                     </div>
@@ -136,7 +128,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

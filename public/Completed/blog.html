@@ -3,18 +3,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Completed - NewsFlash | Home</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
-    <!-- Remix icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!-- Swiper.js styles -->
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>STRC | Blogs</title>
+    <!-- Favicons -->
+  <link href="../assets/img/logo4.png" rel="icon">
+  <link href="../assets/img/logo4.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="./assets/css/swiper-bundle.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header
     <header class="header" id="header">
 
         <nav class="navbar container">
@@ -74,44 +81,85 @@
 
         </nav>
 
-    </header>
+    </header> -->
 
-    <!-- Search -->
-    <div class="search-form-container container" id="search-form-container">
-
-        <div class="form-container-inner">
-
-            <form action="" class="form">
-                <input class="form-input" type="text" placeholder="What are you looking for?">
-                <button class="btn form-btn" type="submit">
-                    <i class="ri-search-line"></i>
-                </button>
-            </form>
-            <span class="form-note">Or press ESC to close.</span>
-
+     <!-- ======= Header ======= -->
+     <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+          <!--   <h1><a href="index.html"><img class="logo" src="./assets/img/logo.png" alt=""></a></h1> -->
+             <!-- Uncomment below if you prefer to use an image logo-->
+            <a href="../index.html"><img src="../assets/img/logo4.png" alt="" class="img-fluid"></a>
+          </div>
+    <link rel="stylesheet" href="./assets/css/main.css">
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto" href="../index.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About&nbsp;Us</a></li>
+              <li class="dropdown"><a href="#portfolio"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#" target="blank">Next GenX</a></li>
+                  <li><a href="#" target="blank">Explore AI</a></li>
+                  <li><a href="#" target="blank">Workiverse</a></li>
+                  <li><a href="#" target="blank">Mission Together 2021</a></li>
+                  <li><a href="#" target="blank">Space Opera</a></li>
+                  <li><a href="#" target="blank">Spark</a></li>
+                </ul>
+              <li class="dropdown"><a href="./blog.html" class="nav-link scrollto active"><span>Blogs</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="./blog.html" target="blank" class="nav-link scrollto active">Blog Posts</a></li>
+                  <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="more.html">Research Papers</a></li>
+                      <li><a href="#">Free Resources</a></li>
+                      <!-- <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li> -->
+                    </ul>
+                  </li>
+                </ul>
+              <li class="dropdown"><a href="#"><span>Programs</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="https://66wc6ey07d2.typeform.com/to/z4b6Jrqi" target="blank">Partnership Programs</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#testimonials"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="more.html">Our Perspective</a></li>
+                  <li><a href="#">Our Stories</a></li>
+                  <li><a href="#">Our Goals</a></li>
+                  <!-- <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li> -->
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a class="getstarted scrollto" href="https://www.paypal.com/donate/?hosted_button_id=QDUFAUDV27V9E" target="_blank">Donate</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
         </div>
+           </header><!-- End Header -->
 
-        <button class="btn form-close-btn place-items-center" id="form-close-btn">
-            <i class="ri-close-line"></i>
-        </button>
+<!-- <div class="dummy-sep" style="height: 8vh;"></div> -->
 
-    </div>
 
-    <!-- Featured articles -->
+    <!--======= Featured articles =======-->
     <section class="featured-articles section section-header-offset">
 
         <div class="featured-articles-container container d-grid">
 
-            <div class="featured-content d-grid">
+            <!-- <div class="featured-content d-grid"> -->
 
-                <div class="headline-banner">
+                <!-- <div class="headline-banner">
                     <h3 class="headline fancy-border">
                         <span class="place-items-center">Breaking news</span>
                     </h3>
                     <span class="headline-description">Apple announces a new partnership...</span>
-                </div>
+                </div> -->
 
-                <a href="./post.html" class="article featured-article featured-article-1">
+                <!-- <a href="./post.html" class="article featured-article featured-article-1">
                     <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
                     <span class="article-category">Technology</span>
 
@@ -160,15 +208,15 @@
                         <h3 class="title article-title">Natural fat burner</h3>  
 
                     </div>
-                </a>
+                </a> -->
 
             </div>
             
             <div class="sidebar d-grid">
 
-                <h3 class="title featured-content-title">Trending news</h3>
+                <h3 class="title featured-content-title">News, Blogs & Latest Updates</h3>
 
-                <a href="#" class="trending-news-box">
+                <a href="./post.html" class="trending-news-box" target="_blank">
                     <div class="trending-news-img-box">
                         <span class="trending-number place-items-center">01</span>
                         <img src="./assets/images/trending/trending_1.jpg" alt="" class="article-image">
@@ -182,12 +230,12 @@
                             <span>3 Min read</span>
                         </div>
 
-                        <h3 class="title article-title">Sample article title</h3>
-
+                        <h3 class="title article-title" style="font-weight: bold;">Pi - The Secrets of Wonder</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">Contents: ∙ Understanding the Magical Constant ∙ "If equations are trains threading the landscape of numbers, then no train stops at Pi" ∙ ...</p>
                     </div>
                 </a>
 
-                <a href="#" class="trending-news-box">
+                <a href="./post1.html" class="trending-news-box" target="_blank">
                     <div class="trending-news-img-box">
                         <span class="trending-number place-items-center">02</span>
                         <img src="./assets/images/trending/trending_2.jpg" alt="" class="article-image">
@@ -201,12 +249,13 @@
                             <span>3 Min read</span>
                         </div>
 
-                        <h3 class="title article-title">Sample article title</h3>
+                        <h3 class="title article-title" style="font-weight: bold;">Nuclear Energy for Future</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">"Nuclear Energy for the Future? 😲 In a good way? or a bad way? Maybe reading further below might have the answer to our question as we ∙ ...</p>
 
                     </div>
                 </a>
 
-                <a href="#" class="trending-news-box">
+                <a href="./post2.html" class="trending-news-box" target="_blank">
                     <div class="trending-news-img-box">
                         <span class="trending-number place-items-center">03</span>
                         <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
@@ -220,12 +269,14 @@
                             <span>3 Min read</span>
                         </div>
 
-                        <h3 class="title article-title">Sample article title</h3>
+                        <h3 class="title article-title" style="font-weight: bold;">Parker Solar Probe</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">Contents: ∙ Understanding the Magical Constant ∙ "If equations are trains threading the landscape of numbers, then no train stops at Pi" ∙ ...</p>
+
 
                     </div>
                 </a>
 
-                <a href="#" class="trending-news-box">
+                <a href="./post3.html" class="trending-news-box">
                     <div class="trending-news-img-box">
                         <span class="trending-number place-items-center">04</span>
                         <img src="./assets/images/trending/trending_4.jpg" alt="" class="article-image">
@@ -239,12 +290,14 @@
                             <span>3 Min read</span>
                         </div>
 
-                        <h3 class="title article-title">Sample article title</h3>
+                        <h3 class="title article-title" style="font-weight: bold;">Wanna Explore Mars?</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">Contents: ∙ Understanding the Magical Constant ∙ "If equations are trains threading the landscape of numbers, then no train stops at Pi" ∙ ...</p>
+
 
                     </div>
                 </a>
 
-                <a href="#" class="trending-news-box">
+                <a href="./post4.html" class="trending-news-box">
                     <div class="trending-news-img-box">
                         <span class="trending-number place-items-center">05</span>
                         <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
@@ -258,7 +311,72 @@
                             <span>3 Min read</span>
                         </div>
 
-                        <h3 class="title article-title">Sample article title</h3>
+                        <h3 class="title article-title" style="font-weight: bold;">Dopamine: A Mystical Senstation</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">Contents: ∙ Understanding the Magical Constant ∙ "If equations are trains threading the landscape of numbers, then no train stops at Pi" ∙ ...</p>
+
+
+                    </div>
+                </a>
+
+                <a href="./post5.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">06</span>
+                        <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" style="font-weight: bold;">Mechanism of the Coronavirus</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">Contents: ∙ Understanding the Magical Constant ∙ "If equations are trains threading the landscape of numbers, then no train stops at Pi" ∙ ...</p>
+
+
+                    </div>
+                </a>
+
+                <a href="./post6.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">07</span>
+                        <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" style="font-weight: bold;">STRC Works Against Fighting COVID-19</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">Contents: ∙ Understanding the Magical Constant ∙ "If equations are trains threading the landscape of numbers, then no train stops at Pi" ∙ ...</p>
+
+
+                    </div>
+                </a>
+
+                <a href="./post7.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">08</span>
+                        <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title" style="font-weight: bold;">The Associates: Innovations Worth Created</h3>
+                        <p style="color: rgb(151, 151, 151); font-style: italic;">Contents: ∙ Understanding the Magical Constant ∙ "If equations are trains threading the landscape of numbers, then no train stops at Pi" ∙ ...</p>
+
 
                     </div>
                 </a>
@@ -267,287 +385,10 @@
 
         </div>
 
-    </section>
-
-    <!-- Quick read -->
-    <section class="quick-read section">
-
-        <div class="container">
-
-            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <a href="#" class="article swiper-slide">
-                        <img src="./assets/images/quick_read/quick_read_1.jpg" alt="" class="article-image">
-
-                        <div class="article-data-container">
-                            <div class="article-data">
-                                <span>23 Dec 2021</span>
-                                <span class="article-data-spacer"></span>
-                                <span>3 Min read</span>
-                            </div>
-                            <h3 class="title article-title">Sample article title</h3>
-                        </div>
-                    </a>
-                    <!-- Slides -->
-                    <a href="#" class="article swiper-slide">
-                        <img src="./assets/images/quick_read/quick_read_2.jpg" alt="" class="article-image">
-
-                        <div class="article-data-container">
-                            <div class="article-data">
-                                <span>23 Dec 2021</span>
-                                <span class="article-data-spacer"></span>
-                                <span>3 Min read</span>
-                            </div>
-                            <h3 class="title article-title">Sample article title</h3>
-                        </div>
-                    </a>
-                    <!-- Slides -->
-                    <a href="#" class="article swiper-slide">
-                        <img src="./assets/images/quick_read/quick_read_3.jpg" alt="" class="article-image">
-
-                        <div class="article-data-container">
-                            <div class="article-data">
-                                <span>23 Dec 2021</span>
-                                <span class="article-data-spacer"></span>
-                                <span>3 Min read</span>
-                            </div>
-                            <h3 class="title article-title">Sample article title</h3>
-                        </div>
-                    </a>
-                    <!-- Slides -->
-                    <a href="#" class="article swiper-slide">
-                        <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="article-image">
-
-                        <div class="article-data-container">
-                            <div class="article-data">
-                                <span>23 Dec 2021</span>
-                                <span class="article-data-spacer"></span>
-                                <span>3 Min read</span>
-                            </div>
-                            <h3 class="title article-title">Sample article title</h3>
-                        </div>
-                    </a>
-                    <!-- Slides -->
-                    <a href="#" class="article swiper-slide">
-                        <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="article-image">
-
-                        <div class="article-data-container">
-                            <div class="article-data">
-                                <span>23 Dec 2021</span>
-                                <span class="article-data-spacer"></span>
-                                <span>3 Min read</span>
-                            </div>
-                            <h3 class="title article-title">Sample article title</h3>
-                        </div>
-                    </a>
-                    <!-- Slides -->
-                    <a href="#" class="article swiper-slide">
-                        <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="article-image">
-
-                        <div class="article-data-container">
-                            <div class="article-data">
-                                <span>23 Dec 2021</span>
-                                <span class="article-data-spacer"></span>
-                                <span>3 Min read</span>
-                            </div>
-                            <h3 class="title article-title">Sample article title</h3>
-                        </div>
-                    </a>
-                </div>
-                <!-- Navigation buttons -->
-                <div class="swiper-button-prev swiper-controls"></div>
-                <div class="swiper-button-next swiper-controls"></div>
-                <!-- Pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Older posts -->
-    <section class="older-posts section">
-
-        <div class="container">
-
-            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
-
-            <div class="older-posts-grid-wrapper d-grid">
-
-                <a href="#" class="article d-grid">
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>23 Dec 2021</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-                <a href="#" class="article d-grid">
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="./assets/images/older_posts/older_posts_2.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>23 Dec 2021</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-                <a href="#" class="article d-grid">
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>23 Dec 2021</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-                <a href="#" class="article d-grid">
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>23 Dec 2021</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-                <a href="#" class="article d-grid">
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>23 Dec 2021</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-                <a href="#" class="article d-grid">
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="./assets/images/older_posts/older_posts_6.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>23 Dec 2021</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-            </div>
-
-            <div class="see-more-container">
-                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Popular tags -->
-    <section class="popular-tags section">
-
-        <div class="container">
-
-            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
-
-            <div class="popular-tags-container d-grid">
-
-                <a href="#" class="article">
-                    <span class="tag-name">#Travel</span>
-                    <img src="./assets/images/tags/travel-tag.jpg" alt="" class="article-image">
-                </a>
-
-                <a href="#" class="article">
-                    <span class="tag-name">#Food</span>
-                    <img src="./assets/images/tags/food-tag.jpg" alt="" class="article-image">
-                </a>
-
-                <a href="#" class="article">
-                    <span class="tag-name">#Technology</span>
-                    <img src="./assets/images/tags/technology-tag.jpg" alt="" class="article-image">
-                </a>
-
-                <a href="#" class="article">
-                    <span class="tag-name">#Health</span>
-                    <img src="./assets/images/tags/health-tag.jpg" alt="" class="article-image">
-                </a>
-
-                <a href="#" class="article">
-                    <span class="tag-name">#Nature</span>
-                    <img src="./assets/images/tags/nature-tag.jpg" alt="" class="article-image">
-                </a>
-
-                <a href="#" class="article">
-                    <span class="tag-name">#Fitness</span>
-                    <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="article-image">
-                </a>
-
-            </div>
-
-        </div>
     </section>
 
     <!-- Newsletter -->
-    <section class="newsletter section">
+    <!-- <section class="newsletter section">
 
         <div class="container">
 
@@ -568,10 +409,10 @@
 
         </div>
 
-    </section>
+    </section> -->
 
     <!-- Footer -->
-    <footer class="footer section">
+    <!-- <footer class="footer section">
 
         <div class="footer-container container d-grid">
             
@@ -673,7 +514,7 @@
 
         </div>
         
-    </footer>
+    </footer> -->
 
     <!-- Swiper.js -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
