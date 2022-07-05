@@ -21,126 +21,259 @@
   <link href="./assets/css/swiper-bundle.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header
-    <header class="header" id="header">
 
-        <nav class="navbar container">
-            <a href="./index.html">
-                <h2 class="logo">NewsFlash</h2>
-            </a>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
 
-            <div class="menu" id="menu">
-                <ul class="list">
-                    <li class="list-item">
-                        <a href="#" class="list-link current">Home</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Categories</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Reviews</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">News</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Membership</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Contact</a>
-                    </li>
-                    <li class="list-item screen-lg-hidden">
-                        <a href="./signin.html" class="list-link">Sign in</a>
-                    </li>
-                    <li class="list-item screen-lg-hidden">
-                        <a href="./signup.html" class="list-link">Sign up</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="logo">
+      <!--   <h1><a href="index.html"><img class="logo" src="./assets/img/logo.png" alt=""></a></h1> -->
+         <!-- Uncomment below if you prefer to use an image logo-->
+        <a href="index.html"><img src="../assets/img/logo4.png" alt="" class="img-fluid"></a>
+      </div>
+<link rel="stylesheet" href="./assets/css/main.css">
+      <nav id="navbar" class="navbar">
+        <ul>
 
-            <div class="list list-right">
-                <button class="btn place-items-center" id="theme-toggle-btn">
-                    <i class="ri-sun-line sun-icon"></i>
-                    <i class="ri-moon-line moon-icon"></i>
-                </button>
+          <style>.hover-drop:hover{cursor: pointer;}</style>
 
-                <button class="btn place-items-center" id="search-icon">
-                    <i class="ri-search-line"></i>
-                </button>
+          <li class="nav-item fw-nav-item ">
+            <a class="nav-link fw-nav-link scrollto" href="../index.html">Home
+            <span class="sr-only"></span></a>
+            <svg class="dot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class="dot-circle-3_to  " transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-2_to  " transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-1_to  " transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <svg class="dot-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class=" dot-hover-circle-3_to" transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-2_to" transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-1_to" transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+          </li>
 
-                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
-                    <i class="ri-menu-3-line open-menu-icon"></i>
-                    <i class="ri-close-line close-menu-icon"></i>
-                </button>
 
-                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
-                    <span>Sign up</span>
-                </a>
-            </div>
+          <li class="nav-item fw-nav-item ">
+            <a class="nav-link fw-nav-link scrollto" href="#about">About&nbsp;Us
+            <span class="sr-only"></span></a>
+            <svg class="dot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class="dot-circle-3_to  " transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-2_to  " transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-1_to  " transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <svg class="dot-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class=" dot-hover-circle-3_to" transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-2_to" transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-1_to" transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+          </li>
 
-        </nav>
 
-    </header> -->
 
-     <!-- ======= Header ======= -->
-     <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
-    
-          <div class="logo">
-          <!--   <h1><a href="index.html"><img class="logo" src="./assets/img/logo.png" alt=""></a></h1> -->
-             <!-- Uncomment below if you prefer to use an image logo-->
-            <a href="../index.html"><img src="../assets/img/logo4.png" alt="" class="img-fluid"></a>
-          </div>
-    <link rel="stylesheet" href="./assets/css/main.css">
-          <nav id="navbar" class="navbar">
+          <li class="dropdown nav-item fw-nav-item">
+            <a class="nav-link fw-nav-link scrollto" href="#portfolio"><span>Projects</span> <i class="bi bi-chevron-down"></i>
+            <span class="sr-only"></span></a>
+            <svg class="dot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class="dot-circle-3_to  " transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-2_to  " transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-1_to  " transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <svg class="dot-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class=" dot-hover-circle-3_to" transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-2_to" transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-1_to" transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
             <ul>
-              <li><a class="nav-link scrollto" href="../index.html">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">About&nbsp;Us</a></li>
-              <li class="dropdown"><a href="#portfolio"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+              <li><a href="#" target="blank">Next GenX</a></li>
+              <li><a href="#" target="blank">Explore AI</a></li>
+              <li><a href="#" target="blank">Workiverse</a></li>
+              <li><a href="#" target="blank">Mission Together 2021</a></li>
+              <li><a href="#" target="blank">Space Opera</a></li>
+              <li><a href="#" target="blank">Spark</a></li>
+            </ul>
+          </li>
+
+
+          
+          <li class="dropdown nav-item fw-nav-item">
+            <a class="nav-link fw-nav-link scrollto hover-drop active" href="./blog.html"><span>Blogs</span> <i class="bi bi-chevron-down"></i>
+            <span class="sr-only"></span></a>
+            <svg class="dot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class="dot-circle-3_to  " transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-2_to  " transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-1_to  " transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <svg class="dot-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class=" dot-hover-circle-3_to" transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-2_to" transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-1_to" transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <ul>
+              <li><a href="./blog.html" class="active">Blog Posts</a></li>
+              <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#" target="blank">Next GenX</a></li>
-                  <li><a href="#" target="blank">Explore AI</a></li>
-                  <li><a href="#" target="blank">Workiverse</a></li>
-                  <li><a href="#" target="blank">Mission Together 2021</a></li>
-                  <li><a href="#" target="blank">Space Opera</a></li>
-                  <li><a href="#" target="blank">Spark</a></li>
-                </ul>
-              <li class="dropdown"><a href="./blog.html" class="nav-link scrollto active"><span>Blogs</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="./blog.html" target="blank" class="nav-link scrollto active">Blog Posts</a></li>
-                  <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-right"></i></a>
-                    <ul>
-                      <li><a href="more.html">Research Papers</a></li>
-                      <li><a href="#">Free Resources</a></li>
-                      <!-- <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li> -->
-                    </ul>
-                  </li>
-                </ul>
-              <li class="dropdown"><a href="#"><span>Programs</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="https://66wc6ey07d2.typeform.com/to/z4b6Jrqi" target="blank">Partnership Programs</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#testimonials"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="more.html">Our Perspective</a></li>
-                  <li><a href="#">Our Stories</a></li>
-                  <li><a href="#">Our Goals</a></li>
-                  <!-- <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="more.html">Research Papers</a></li>
+                  <li><a href="#">Free Resources</a></li>
+                  <!-- <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li> -->
                 </ul>
               </li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-              <li><a class="getstarted scrollto" href="https://www.paypal.com/donate/?hosted_button_id=QDUFAUDV27V9E" target="_blank">Donate</a></li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
-    
-        </div>
-           </header><!-- End Header -->
+            </li>
+
+
+          
+          <li class="dropdown nav-item fw-nav-item">
+            <a class="nav-link fw-nav-link scrollto hover-drop"><span>Programs</span> <i class="bi bi-chevron-down"></i></a>
+            <span class="sr-only"></span></a>
+            <svg class="dot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class="dot-circle-3_to  " transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-2_to  " transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-1_to  " transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <svg class="dot-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class=" dot-hover-circle-3_to" transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-2_to" transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-1_to" transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <ul>
+              <li><a href="https://66wc6ey07d2.typeform.com/to/z4b6Jrqi" target="blank">Partnership Programs</a></li>
+            </ul>
+          </li>
+
+
+          
+          <li class="dropdown nav-item fw-nav-item">
+            <a class="nav-link fw-nav-link scrollto" href="#testimonials"><span>Team</span> <i class="bi bi-chevron-down"></i>
+            <span class="sr-only"></span></a>
+            <svg class="dot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class="dot-circle-3_to  " transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-2_to  " transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-1_to  " transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <svg class="dot-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class=" dot-hover-circle-3_to" transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-2_to" transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-1_to" transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <ul>
+              <li><a href="more.html">Our Perspective</a></li>
+              <li><a href="#">Our Stories</a></li>
+              <li><a href="#">Our Goals</a></li>
+              <!-- <li><a href="#">Deep Drop Down 4</a></li>
+              <li><a href="#">Deep Drop Down 5</a></li> -->
+            </ul>
+          </li>
+
+
+          <li class="nav-item fw-nav-item ">
+            <a class="nav-link fw-nav-link scrollto" href="#contact">Contact
+            <span class="sr-only"></span></a>
+            <svg class="dot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class="dot-circle-3_to  " transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-2_to  " transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class="dot-circle-1_to  " transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+            <svg class="dot-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 15" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="20" height="15">
+              <g class=" dot-hover-circle-3_to" transform="translate(18,2)">
+                <circle class="dot-circle-3" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-2_to" transform="translate(10,2)">
+                <circle class="dot-circle-2" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+              <g class=" dot-hover-circle-1_to" transform="translate(2,2)">
+                <circle class="dot-circle-1" r="2" transform="translate(0,0)" opacity="0" fill="rgb(255,26,76)" stroke="none" stroke-width="1"></circle>
+              </g>
+            </svg>
+          </li>
+          <li><a class="getstarted scrollto" href="https://www.paypal.com/donate/?hosted_button_id=QDUFAUDV27V9E" target="_blank">Donate</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+       </header><!-- End Header -->
+
+
 
 <!-- <div class="dummy-sep" style="height: 8vh;"></div> -->
 
